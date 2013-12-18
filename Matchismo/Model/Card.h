@@ -10,4 +10,13 @@
 
 @interface Card : NSObject
 
+//Public
+@property (strong, nonatomic) NSString *contents;
+
+//Primative types - no memory to manage and rename getter.
+@property (nonatomic, getter = isChosen) BOOL chosen;
+@property (nonatomic, getter = isMatched) BOOL matched;
+
+- (int)match:(NSArray *)otherCards;
+
 @end
