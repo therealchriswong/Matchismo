@@ -22,6 +22,9 @@
 		421F70F11861345600CFA905 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 421F70EF1861345600CFA905 /* InfoPlist.strings */; };
 		421F70F31861345600CFA905 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 421F70F21861345600CFA905 /* MatchismoTests.m */; };
 		421F70FE18613FA800CFA905 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 421F70FD18613FA800CFA905 /* Card.m */; };
+		42D4A2C218615ECB003F6795 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D4A2C118615ECB003F6795 /* Deck.m */; };
+		42D4A2C518616DE7003F6795 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D4A2C418616DE7003F6795 /* PlayingCard.m */; };
+		42D4A2C818617AAB003F6795 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D4A2C718617AAB003F6795 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,12 @@
 		421F70F21861345600CFA905 /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
 		421F70FC18613FA800CFA905 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
 		421F70FD18613FA800CFA905 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		42D4A2C018615ECB003F6795 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		42D4A2C118615ECB003F6795 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		42D4A2C318616DE7003F6795 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Model/PlayingCard.h; sourceTree = "<group>"; };
+		42D4A2C418616DE7003F6795 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
+		42D4A2C618617AAB003F6795 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		42D4A2C718617AAB003F6795 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +170,12 @@
 			children = (
 				421F70FC18613FA800CFA905 /* Card.h */,
 				421F70FD18613FA800CFA905 /* Card.m */,
+				42D4A2C018615ECB003F6795 /* Deck.h */,
+				42D4A2C118615ECB003F6795 /* Deck.m */,
+				42D4A2C318616DE7003F6795 /* PlayingCard.h */,
+				42D4A2C418616DE7003F6795 /* PlayingCard.m */,
+				42D4A2C618617AAB003F6795 /* PlayingCardDeck.h */,
+				42D4A2C718617AAB003F6795 /* PlayingCardDeck.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -263,8 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D4A2C518616DE7003F6795 /* PlayingCard.m in Sources */,
+				42D4A2C218615ECB003F6795 /* Deck.m in Sources */,
 				421F70D81861345600CFA905 /* CardGameAppDelegate.m in Sources */,
 				421F70DE1861345600CFA905 /* CardGameViewController.m in Sources */,
+				42D4A2C818617AAB003F6795 /* PlayingCardDeck.m in Sources */,
 				421F70D41861345600CFA905 /* main.m in Sources */,
 				421F70FE18613FA800CFA905 /* Card.m in Sources */,
 			);
@@ -475,6 +493,7 @@
 				421F70F81861345600CFA905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		421F70F91861345600CFA905 /* Build configuration list for PBXNativeTarget "MatchismoTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +502,7 @@
 				421F70FB1861345600CFA905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
